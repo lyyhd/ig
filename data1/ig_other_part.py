@@ -13,7 +13,7 @@ from ig.vp.batchimport.import_pcbabom_conf2 import *
 from ig.vp.batchimport.tools import read_excel
 from ig.vp.items.erp_sync import BomSync_Muilt, ItemSync_Muilt
 from ig.vp.items.part import IntronPart, fPart
-# 测试git 
+# 测试git
 fBom = Forward("ig.vp.bom.bom.IntronBom")
 fIg_Acl = Forward("ig.uninheritance.ig_acl.Ig_Acl")
 fIntronPart = Forward("ig.vp.items.part.IntronPart")
